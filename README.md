@@ -22,7 +22,7 @@
     * tsconfig.json
 
 5. 使用vscode 或其他你喜欢的IDE，打开项目目录
-6. 在`pages-tsx`目录 创建和编写你的tsx文件即可。 `hsx`命令会实时把你的`tsx`文件编译为等效的`ArkTS`版本，通过鸿蒙的IDE可实时预览最新UI。
+6. 在`entry/src/main/ets/pages-tsx`目录 创建和编写你的tsx文件即可。 `hsx`命令会实时把你的`tsx`文件编译为等效的`ArkTS`版本，通过鸿蒙的IDE可实时预览最新UI。
 ![vscode-editor](./static/vscode-editor.png)
 
 
