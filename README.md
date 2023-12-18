@@ -3,6 +3,9 @@
 
 ![jsx-show.gif](./static/jsx-show.gif)
 
+`harmonyos-jsx`会实时把你的tsx文件转化为等效的ArkTS，还你JSX的自由和灵活。**注意**状态管理仍然需要使用
+鸿蒙提供的`@State`等机制。
+
 ### Getting Started
 1. 首次使用需全局安装 `harmonyos-jsx`。 
    ```shell
