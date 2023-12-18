@@ -4,16 +4,24 @@
 ![jsx-show.gif](./static/jsx-show.gif)
 
 ### Getting Started
-1. 首先全局安装 `harmonyos-jsx`。 安装成功之后会提供 `hsx`命令，可通过`hsx --version` 查看是否安装成功。
-2. 参考HarmonyOS[开发文档](https://developer.harmonyos.com/cn/docs/documentation/doc-guides-V3/start-with-ets-stage-0000001477980905-V3) 创建初始化项目
-3. 进入项目目录，执行如下脚本`hsx`， 如果是**首次执行**此命令将会在`ets`目录下创建以下文件
+1. 首次使用需全局安装 `harmonyos-jsx`。 
+   ```shell
+   npm install -g harmonyos-jsx
+   ```
+2. 安装成功之后会提供 `hsx`命令。 执行--version 判断是否安装成功
+   ```shell
+   hsx --version
+   ```
+3. 参考HarmonyOS[开发文档](https://developer.harmonyos.com/cn/docs/documentation/doc-guides-V3/start-with-ets-stage-0000001477980905-V3) 创建初始化项目
+4. 进入项目目录，执行如下脚本`hsx`， 如果是**首次执行**此命令将会在`ets`目录下创建以下文件
     * pages-tsx 目录： 后续的tsx 源码目录
     * arks-global.d.ts 
     * tsconfig.json
 
-4. 使用vscode 或其他你喜欢的IDE，打开项目目录
-5. 在`pages-tsx`目录 创建和编写你的tsx文件即可。 `hsx`命令会实时把你的`tsx`文件编译为等效的`ArkTS`版本
+5. 使用vscode 或其他你喜欢的IDE，打开项目目录
+6. 在`pages-tsx`目录 创建和编写你的tsx文件即可。 `hsx`命令会实时把你的`tsx`文件编译为等效的`ArkTS`版本，通过鸿蒙的IDE可实时预览最新UI。
 ![vscode-editor](./static/vscode-editor.png)
+
 
 ### TODO
 - [ ] support style prop

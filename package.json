@@ -4,7 +4,12 @@
     "hsx": "./src/index.js",
     "harmonyos-jsx": "./src/index.js"
   },
-  "version": "0.1.0",
+  "files": [
+    "src",
+    "template",
+    "package.json"
+  ],
+  "version": "0.2.0",
   "description": "鸿蒙 HarmonyOS ArkTS 支持 JSX 编写",
   "main": "index.js",
   "scripts": {

@@ -11,10 +11,6 @@ const generate = require('@babel/generator').default;
 
 const myTraverse = require('./traverse')
 
-
-const whiteSpace = "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-const jsxBaseTab = `\t\t\t\t`
-
 const options = getopts(process.argv, {
     alias: {
         w: 'watch',
@@ -73,7 +69,7 @@ function prepareNecessaryFile(desPath) {
         fs.mkdirSync(path.resolve(desPath, "pages-tsx"))
     }
 
-    const copyFiles = ["arkts-global.d.ts", "tsconfig.json", "pages-tsx/hsx.ts"]
+    const copyFiles = ["arkts-global.d.ts", "tsconfig.json", "pages-tsx/hsx.ts", "pages-tsx/Index.tsx"]
     copyFiles.forEach((item) => {
         if (!fs.existsSync(path.resolve(desPath, item))) {
             fs.copyFileSync(
